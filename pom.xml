@@ -37,15 +37,6 @@
                   <file>${project.build.directory}/lib/libjavaperfstat.so</file>
                 </transformer>
               </transformers>
-          <artifactSet>
-             <includes>
-               <include>org.mystic:mavenized-jcuda</include>
-               <include>jcuda:**</include>
-             </includes>
-            <excludes>
-              <exclude>jcuda:*:so:*</exclude>
-            </excludes>
-          </artifactSet>
         </configuration>
         <executions>
           <execution>
